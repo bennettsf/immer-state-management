@@ -19,7 +19,7 @@ Each item comes with a button that gives the option to delete it from the shoppi
 ![](https://i.imgur.com/Fa71mOF.gif)
 
 ### Deleting an Item:
-![](https://i.imgur.com/5DrZCwg.gif)
+![](https://i.imgur.com/IPKMHZ9.gif)
 
 
 In the project directory, you can run:

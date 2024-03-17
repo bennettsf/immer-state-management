@@ -1,8 +1,26 @@
-# Getting Started with Create React App
+This is an assignment from AD325 Web App Dev where I learned to use the ``useImmer`` hook as well as ``produce``.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I created two forms, one for adding an item to a shopping list, and the other for updating an item.
 
-## Available Scripts
+Each item comes with a button that gives the option to delete it from the shopping list.
+
+- Adding an item creates a new item object based on the form input and adds it to the shoppingList array state.
+
+- Updating an item compares the input ID with the item ID to make sure it exists before editing its state.
+
+- Deleting an item compares the ID to make sure it exists, then removes the item object from the shoppingList state.
+
+
+
+### Adding an Item:
+![](https://i.imgur.com/61rubbB.gif)
+
+### Updating an Item:
+![](https://i.imgur.com/Fa71mOF.gif)
+
+### Deleting an Item:
+![](https://i.imgur.com/5DrZCwg.gif)
+
 
 In the project directory, you can run:
 

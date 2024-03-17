@@ -94,9 +94,9 @@ function ShoppingListWithImmer() {
         }))
     }
 
-    const deleteItem = (itemName) => {
+    const deleteItem = (itemId) => {
         setShoppingList(produce(shoppingList, draft => {
-            const idx = draft.findIndex(item => itemName === item.name)
+            const idx = draft.findIndex(item => itemId === item.id)
             draft.splice(idx, 1)
         }))    
     }
@@ -159,7 +159,7 @@ function ShoppingListWithImmer() {
                             <h3>{item.details.category}</h3>
                             <p>{item.details.description}</p>
                             <p className="item-id">Item ID: {item.id}</p>
-                            <button className="delete-button" onClick={() => deleteItem(item.name)}>Delete Item</button>
+                            <button className="delete-button" onClick={() => deleteItem(item.id)}>Delete Item</button>
                         </div>
                     ))}   
                 </div>

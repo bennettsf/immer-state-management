@@ -8,7 +8,7 @@ Each item comes with a button that gives the option to delete it from the shoppi
 
 - Updating an item compares the input ID with the item ID to make sure it exists before editing its state.
 
-- Deleting an item compares the ID to make sure it exists, then removes the item object from the shoppingList state.
+- Deleting an item compares the ID from the div key to make sure it exists in the shoppingList array. If that clears, it removes the item object from the shoppingList draft and updates the state.
 
 
 

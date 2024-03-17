@@ -4,7 +4,7 @@ I created two forms, one for adding an item to a shopping list, and the other fo
 
 Each item comes with a button that gives the option to delete it from the shopping list.
 
-- Adding an item creates a new item object based on the form input and adds it to the shoppingList array state.
+- Adding an item creates a new item object based on the form input and appends it to the shoppingList array state.
 
 - Updating an item compares the input ID with the item ID to make sure it exists before editing its state.
 
